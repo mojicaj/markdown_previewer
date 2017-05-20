@@ -2,12 +2,9 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
   font-size: 16px; }
 
-code {
-  font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; }
-
 .container {
   width: 80%;
-  margin: 3% 1%;
+  margin: 3% 2%;
   padding: 0; }
 
 .txt {
@@ -17,5 +14,5 @@ code {
   float: left; }
 
 .preview {
-  float: right;
-  width: 45%; }
+  width: 45%;
+  float: right; }

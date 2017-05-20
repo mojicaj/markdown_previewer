@@ -14,24 +14,24 @@ class App extends React.Component {
   handleChange(txt) {
 
     this.setState({
-      txtValue: this.refs.inputValue.value
-    })
+      txtValue: txt.target.value
+    });
   }
 
-	render() {
+  render() {
 
-		return (
-			<div className='container'>
+    return (
+      <div className='container'>
         <div className='txt-div'>
-          <textarea className='txt' rows='22' onChange={this.handleChange} value={this.state.txtValue} 
+          <textarea className='txt' rows='35' onChange={this.handleChange} value={this.state.txtValue}
           ref='inputValue'></textarea>
         </div>
 
         <Preview str={this.state.txtValue} />
 
       </div>
-		)
-	}
+    );
+  }
 }
 
 module.exports = App;
